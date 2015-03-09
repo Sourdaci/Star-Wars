@@ -23,6 +23,13 @@ public class NameGenerator
 
     /**
      * Generamos el nombre "Star Wars Style"
+     * 
+     * @param miNombre Tu nombre
+     * @param miApellido Tu primer apellido
+     * @param apellidoMadre El primer apellido de tu madre
+     * @param ciudadNacimiento La localidad donde naciste
+     * 
+     * @return Tu nombre procesado segun el universo Star Wars
      */
     public String generateStarWarsName(String miNombre, String miApellido, String apellidoMadre, String ciudadNacimiento)
     {
